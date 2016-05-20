@@ -1,5 +1,7 @@
 FROM frolvlad/alpine-oraclejdk8
 
+MAINTAINER Rafael Trestini <rafael.trestini@viverebrasil.com.br>
+
 RUN apk add --no-cache bash gawk sed grep bc coreutils wget curl gpgme
 
 ENV TOMCAT_MAJOR 8
